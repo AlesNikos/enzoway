@@ -19,12 +19,28 @@ use Bitrix\Main\Page\Asset;
         CJSCore::Init();
         
         foreach ([
-           //'/vendor/bootstrap/bootstrap.css',
+           '/vendor/bootstrap/bootstrap.css',
+           '/vendor/bootstrap/bootstrap-select.min.css',
+           "/vendor/fonts/fonts.css",
+           "/vendor/icons/style.css",
+           "/vendor/animate/animate.css",
         ] as $file)
             $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . $file);
         
         
         foreach ([
+            "/vendor/jquery/jquery.min.js",
+            "/vendor/jquery/jquery.inview.js",
+            "/vendor/bootstrap/popper.min.js",
+            "/vendor/bootstrap/bootstrap.min.js",
+            "/vendor/bootstrap/bootstrap-select.min.js",
+            "/vendor/bootstrap/i18n/defaults-ru_RU.min.js",
+            "/vendor/jquery/jquery.modal.js",
+            "/vendor/jquery/jquery.validate.min.js",
+            "/vendor/jquery/jquery.cookie.js",
+            "/vendor/maskedinput/jquery.maskedinput.min.js",
+            "/vendor/jquery/jquery.lazy.min.js",
+            "/vendor/wow/wow.min.js",
             "/script.js",
         ] as $file)
             $APPLICATION->AddHeadScript(SITE_TEMPLATE_PATH . $file);
