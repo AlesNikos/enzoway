@@ -1,19 +1,31 @@
 * {
   box-sizing: border-box;
+  outline: none;
 }
+
+body {
+  color: #424242;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  font-style: normal;
+
+  .container {
+    max-width: 1170px;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  &.overflow {
+    overflow: hidden;
+  }
+}
+
 @supports (font-variation-settings: normal) {
   body {
     font-family: 'Inter var', sans-serif;
   }
-}
-
-body{
-  background-color: #fff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  padding-top: 200px;
 }
 
 .one {
