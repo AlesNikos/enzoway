@@ -1,4 +1,30 @@
-body{
-  background-color: red;
+* {
+  box-sizing: border-box;
+}
+@supports (font-variation-settings: normal) {
+  body {
+    font-family: 'Inter var', sans-serif;
+  }
+}
 
+body{
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 200px;
+}
+
+.one {
+  width: 250px;
+  height: 250px;
+  background: green;
+  margin-bottom: 1000px;
+}
+.two {
+  width: 350px;
+  height: 350px;
+  background: blue;
+  margin-bottom: 200px;
 }
