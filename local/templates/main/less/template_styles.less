@@ -33,7 +33,194 @@ body {
     position: relative;
     z-index: 5;
 }
+
+.news-element-page{
+    .content {
+        padding: 64px 80px;
+        background-color: #fff;
+        box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.02);
+        border-radius: 12px;
+    }
+    .text {
+        margin: 20px 0 52px;
+    }
+    .video-container{
+        display: block;
+        width: 100%;
+        height: 100%;
+        padding: 32px;
+        video {
+            width: 100%;
+            height: 100%;
+            background-color: @color-gray-600;
+        }
+    }
+    
+    .actions{
+        margin-bottom: 8px;
+        .link-back{
+            margin-right: 20px;
+            color: @color-green-500;
+        }
+        .date-wrap {
+            color: @color-gray-600;
+        }
+        .link-back, .date-wrap{
+            display: flex;
+        }
+        
+        .icon {
+            width: 24px;
+            height: 24px;
+            margin-right: 8px;
+            text-align: center;
+            font-size: 24px;
+            font-weight: 400;
+            display: flex;
+            align-items: center;
+        }
+    }
+}
+.news-page{
+    .items {
+        margin: 0 -15px 10px -15px;
+    }
+
+    .img {
+        display: block;
+        height: 240px;
+    }
+    .item-wrap {
+        padding: 0 15px 30px 15px;
+    }
+    .title{
+        padding-bottom: 16px;
+        margin-bottom: 20px;
+        position: relative;
+        &:after{
+            position: absolute;
+            content: '';
+            height: 3px;
+            width: 40px;
+            bottom: 0;
+            left: 0;
+            background-color: @color-green-500;
+        }
+    }
+    .item {
+        width: 100%;
+        height: 100%;
+        box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.02);
+        border-radius: 8px;
+        .news-item-information {
+            display: flex;
+            flex-direction: column;
+            padding: 24px;
+            height: ~'calc(100% - 240px)';
+        }
+        .info-elements{
+            margin-top: auto;
+        }
+        .title {
+            color: @color-blue-gray-900;
+            text-decoration: none;
+        }
+
+        .date {
+            color: @color-gray-600;
+        }
+
+        .icon {
+            width: 24px;
+            height: 24px;
+            margin-right: 8px;
+            text-align: center;
+            font-size: 24px;
+            font-weight: 400;
+            display: flex;
+            align-items: center;
+        }
+
+        .read-more {
+            color: @color-green-500;
+            text-decoration: none;
+            margin-top: auto;
+        }
+        .news-info-element{
+            margin-right: 24px;
+            display: flex;
+            align-items: center;
+        }
+    }
+}
+.solutions-page{
+    .text-block{
+        padding: 64px 80px;
+        margin-bottom: 64px;
+        background: #FFFFFF;
+        box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.02);
+        border-radius: 12px;
+    }
+    .text{
+        margin: 16px 0;
+    }
+    .items{
+        margin: 0 -15px 10px -15px;
+    }
+    .img {
+        display: block;
+        height: 200px;
+    }
+    .solution-information{
+        display: flex;
+        flex-direction: column;
+        padding: 24px;
+        height: ~'calc(100% - 200px)';
+        .title{
+            color: @color-blue-gray-900;
+            text-decoration: none;
+        }
+        .show-more{
+            display: flex;
+            color: @color-green-500;
+            text-decoration: none;
+            margin-top: auto;
+        }
+        .icon {
+            width: 24px;
+            height: 24px;
+            margin-right: 8px;
+            text-align: center;
+            font-size: 24px;
+            font-weight: 400;
+        }
+    }
+    .item-wrap{
+        padding: 0 15px 30px 15px;
+        .item{
+            width: 100%;
+            height: 100%;
+            box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.02);
+            border-radius: 8px;
+        }
+    }
+    .button-show-more-solutions {
+        .btn {
+            width: 100%;
+            justify-content: center;
+            .button-text{
+                margin-right: 4px;
+            }
+            .icon{
+                width: 24px;
+                height: 24px;
+                font-size: 24px;
+            }
+        }
+    }
+}
 .science-page {
+    
     .item {
         padding: 64px 80px;
         background-color: #fff;
