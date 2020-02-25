@@ -7,7 +7,7 @@ $APPLICATION->SetTitle("Топ");
         <div class="background" style="background-image:url(<?=SITE_TEMPLATE_PATH?>/images/temp/header-bg.png)"></div>
         <div class="container">
             <nav aria-label="breadcrumb">
-                <ol class="breadcrumb font-caption10-18">
+                <ol class="breadcrumb font-paragraph-small">
                     <li class="breadcrumb-item"><a href="#">Home</a></li>
                     <li class="breadcrumb-item active" aria-current="page">About</li>
                 </ol>

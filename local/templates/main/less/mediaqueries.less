@@ -1,0 +1,75 @@
+
+/* Hovers */
+@media (min-width: 992px) {
+
+}
+
+@media (max-width: 1200px) {
+
+}
+
+@media (max-width: 991px) {
+
+}
+
+@media (max-width: 767px) {
+    .header {
+        .menu-icon {
+            display: flex;
+        }
+        .menu-list {
+            display: none;
+        }
+    }
+    .mobile-menu-open {
+        .menu-list-mobile {
+            transform: translateX(-260px);
+        }
+    }
+    .footer {
+        .footer-content {
+            flex-direction: column;
+            height: 100%;
+            padding: 27px 24px;
+        }
+        .copyright {
+            order: 2;
+        }
+        .menu {
+            margin-bottom: 24px;
+        }
+        .menu-list {
+            .menu-link {
+                height: auto;
+            }
+        }
+    }
+}
+
+@media (max-width: 575px) {
+    .footer {
+        .menu-list {
+            flex-direction: column;
+            .menu-link {
+                display: block;
+                text-align: center;
+                margin: 0 0 12px 0;
+            }
+        }
+        .copyright {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            span {
+                &:first-child {
+                    margin-right: 0;
+                }
+            }
+        }
+    }
+    .about-page {
+        .content {
+            padding: 32px;
+        }
+    }
+}

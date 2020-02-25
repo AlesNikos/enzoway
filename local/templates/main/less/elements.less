@@ -7,8 +7,8 @@
 @color-gray-400: #BDBDBD;
 @color-gray-300: #E0E0E0;
 @color-gray-200: #EEEEEE;
-@color-gray-10: #F5F5F5;
-@color-gray-5: #FAFAFA;
+@color-gray-100: #F5F5F5;
+@color-gray-50: #FAFAFA;
 
 //color-blue-gray
 @color-blue-gray-900: #263238;
@@ -176,6 +176,7 @@ h6, .h6 {
         }
 
         .page-link {
+            .font-paragraph-base;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -190,8 +191,19 @@ h6, .h6 {
             font-weight: 600;
 
             &:hover {
-                border-color: @color-gray-10;
+                border-color: @color-gray-100;
             }
         }
+    }
+}
+
+.reset-ul-list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+
+    >li {
+        margin: 0;
+        padding: 0;
     }
 }
