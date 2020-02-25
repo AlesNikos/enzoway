@@ -149,3 +149,49 @@ h6, .h6 {
 .font-bold {
     font-weight: 600;
 }
+
+/* Pagination */
+.pagination-nav {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    // margin: 40px 0 64px;
+
+    .pagination {
+        margin-bottom: 0;
+
+        .page-item {
+            margin-right: 24px;
+
+            &:last-of-type {
+                margin-right: 0;
+            }
+
+            &.active {
+                .page-link {
+                    border: 3px solid @color-green-500;
+                    border-radius: 4px;
+                }
+            }
+        }
+
+        .page-link {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 72px;
+            height: 72px;
+            padding: 0;
+            background-color: transparent;
+            color: @color-gray-800;
+            border: 3px solid transparent;
+            border-radius: 4px;
+            transition: border-color 0.2s;
+            font-weight: 600;
+
+            &:hover {
+                border-color: @color-gray-10;
+            }
+        }
+    }
+}
