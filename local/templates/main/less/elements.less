@@ -46,7 +46,7 @@
 @color-deep-orange-300: #FF8A65;
 @color-deep-orange-200: #FFAB91;
 @color-deep-orange-100: #FFCCBC;
-@color-deep-orange-50: #FBE9E7
+@color-deep-orange-50: #FBE9E7;
 
 .hero-h1 {
     font-weight: 900;
@@ -76,7 +76,18 @@ h2, .h2 {
     font-size: 32px;
     line-height: 40px;
     letter-spacing: -0.01em;
+    position: relative;
     // margin: 16px 0 20px;
+    &:before{
+        content: '';
+        display: block;
+        position: absolute;
+        left: -16px;
+        top: 0;
+        width: 4px;
+        height: 100%;
+        background-color: @color-green-500;
+    }
 }
 
 h3, .h3 {
@@ -110,3 +121,31 @@ h6, .h6 {
     // margin: 16px 0 12px;  
 }
 
+.font-subeader {
+    font-weight: 800;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+.font-paragraph-small {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 20px;
+}
+.font-paragraph-base {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+}
+.font-paragraph-lead {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 28px;
+}
+.font-bold {
+    font-weight: 600;
+}
