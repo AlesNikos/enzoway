@@ -48,7 +48,8 @@ body {
         display: block;
         width: 100%;
         height: 100%;
-        padding: 32px;
+        margin: 0 auto;
+        max-width: 942px;
         video {
             width: 100%;
             height: 100%;
@@ -61,6 +62,7 @@ body {
         .link-back{
             margin-right: 20px;
             color: @color-green-500;
+            text-decoration: none;
         }
         .date-wrap {
             color: @color-gray-600;
@@ -89,6 +91,7 @@ body {
     .img {
         display: block;
         height: 240px;
+        background-size: cover;
     }
     .item-wrap {
         padding: 0 15px 30px 15px;
@@ -112,6 +115,9 @@ body {
         height: 100%;
         box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.02);
         border-radius: 8px;
+        background: #fff;
+        overflow: hidden;
+        transition: ease-in-out 0.2s transform;
         .news-item-information {
             display: flex;
             flex-direction: column;
@@ -141,15 +147,38 @@ body {
             align-items: center;
         }
 
-        .read-more {
-            color: @color-green-500;
-            text-decoration: none;
+        .show-more {
             margin-top: auto;
         }
         .news-info-element{
             margin-right: 24px;
             display: flex;
             align-items: center;
+        }
+        &:hover{
+            transform: translateY(-3px);
+        }
+    }
+}
+.button-icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+    transition: ease-in-out 0.3s margin-right;
+}
+.show-more{
+    color: @color-green-500;
+    text-decoration: none;
+    
+    &:hover{
+        text-decoration: none;
+        color: @color-green-500;
+        .icon{
+            margin-right: 0;
+            
         }
     }
 }
@@ -170,6 +199,7 @@ body {
     .img {
         display: block;
         height: 200px;
+        background-size: cover;
     }
     .solution-information{
         display: flex;
@@ -182,8 +212,6 @@ body {
         }
         .show-more{
             display: flex;
-            color: @color-green-500;
-            text-decoration: none;
             margin-top: auto;
         }
         .icon {
@@ -219,13 +247,191 @@ body {
         }
     }
 }
+
+
+
+&.open-modal{
+    overflow: hidden;
+}
+.jqmOverlay{
+    background: rgba(0, 0, 0, 0.25);
+}
+.popup {
+    position: absolute;
+    z-index: 1000;
+    height: auto;
+    width: 100%;
+    left: 0 !important;
+    top: 0;
+    margin-left: 0 !important;
+    animation: fadeIn 0.5s;
+    
+    .popup-content {
+        position: relative;
+        width: 100%;
+        margin: 32px;
+        max-width: 480px;
+        min-width: 320px;
+        background: #fff;
+        box-sizing: border-box;
+        padding: 32px 40px;
+
+        &.popup-description{
+            min-width: 100vw;
+            min-height:~"calc(100vh - 100px)";
+            height:~"calc(100vh - 100px)";
+            margin: 50px 0 0 0;
+            padding: 80px;
+            transform: translateY(-25px);
+        }
+        &.popup-submit{
+            padding: 80px;
+            margin: auto;
+        }
+        &.w-480 {
+            min-width: 480px;
+        }
+
+        &.w-600 {
+            min-width: 600px;
+        }
+
+        &.no-padding {
+            padding: 0;
+        }
+    }
+    .close{
+        position: absolute;
+        right: 80px;
+        top: 80px;
+        text-decoration: none;
+        color: @color-gray-500;
+        z-index: 2;
+        height: 24px;
+        width: 24px;
+        transition: ease-in-out 0.15s color;
+        .icon{
+            margin-right: 0;
+        }
+        &::before {
+            content: '';
+            position: absolute;
+            display: block;
+            width: 40px;
+            height: 40px;
+            background-color: @color-green-500;
+            border-radius: 100%;
+            z-index: -1;
+            opacity: 0;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            transition: ease-in-out 0.15s opacity;
+        }
+        &:hover{
+            
+            &::before{
+                opacity: 1;
+            }
+            .icon{
+                z-index: 1;
+                color: #fff;
+            }
+        }
+    }
+
+    .popup-footer {
+        margin-top: 24px;
+    }
+}
+
+.popup-submit {
+    .title{
+        text-align: center;
+        padding-bottom: 16px;
+        margin-bottom: 20px;
+        color: @color-blue-gray-900;
+        &::before{
+            bottom: 0;
+            top: auto;
+            left: 50%;
+            height: 3px;
+            width: 40px;
+            transform: translateX(-50%);
+        }
+    }
+    .contact-submit-text{
+        text-align: center;
+        margin-bottom: 32px;
+        color: @color-gray-800;
+    }
+    .img{
+        width: 80px;
+        height: 80px;
+        background-size: cover;
+        margin: 0 auto 32px;
+    }
+    .btn{
+        width: 100%;
+        justify-content: center;
+    }
+    .close {
+        position: absolute;
+        right: 45px;
+        top: 45px;
+        text-decoration: none;
+        color: @color-gray-500;
+        z-index: 2;
+    }
+}
+
+.popup-description {
+    .content {
+        height: 100%;
+        overflow: scroll;
+
+        &::-webkit-scrollbar {
+            display: none;
+        }
+    }
+
+    .description-wrap {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        justify-content: center;
+    }
+
+    .img {
+        height: 100%;
+        margin-right: 80px;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .subeader {
+        color: @color-gray-500;
+        margin-bottom: 8px;
+    }
+
+    .title {
+        color: @color-blue-gray-900;
+        margin-bottom: 24px;
+    }
+
+    .description-text {
+        color: @color-gray-800;
+    }
+}
 .science-page {
     
     .item {
         padding: 64px 80px;
         background-color: #fff;
         border-radius: 12px;
+        margin-bottom: 30px;
         box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.02);
+        border-radius: 12px;
 
         .h2 {
             margin-bottom: 16px;
@@ -238,28 +444,19 @@ body {
         .info-block {
             .views {
                 color: @color-gray-600;
+                
             }
-
+            
             .info-block-item {
                 margin-right: 24px;
 
-                .link {
-                    text-decoration: none;
-                    color: @color-green-500;
+                .show-more {
                     display: flex;
                     align-items: center;
 
                 }
             }
 
-            .icon {
-                width: 24px;
-                height: 24px;
-                margin-right: 8px;
-                text-align: center;
-                font-size: 24px;
-                font-weight: 400;
-            }
         }
     }
 }

@@ -15,14 +15,14 @@ $APPLICATION->SetTitle("Главная страница сайта");
                         <div class="row no-gutters info-block">
                             <div class="col-auto info-block-item views">
                                 <div class="row no-gutters font-paragraph-base font-bold">
-                                    <i class="icon icon-eye-line"></i>
+                                    <i class="button-icon icon icon-eye-line"></i>
                                     <span>345</span>
                                 </div>
                             </div>
-                            <div class="col-auto info-block-item read-more">
+                            <div class="col-auto info-block-item show-more">
                                  <div class="row no-gutters font-paragraph-base font-bold">
-                                     <a href="#" class="link">
-                                        <i class="icon icon-add-line"></i>
+                                     <a href="#"  onclick="openModalSubmit()"  class="show-more">
+                                        <i class="button-icon icon icon-add-line"></i>
                                         <span>Read More</span>
                                      </a>
                                 </div>

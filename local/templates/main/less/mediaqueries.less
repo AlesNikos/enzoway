@@ -5,7 +5,23 @@
 }
 
 @media (max-width: 1200px) {
-
+    .popup-description {
+        .close{
+            right: 0;
+            top: 16px;
+        }
+        .img{
+            margin-right: 0;
+        }
+        .description-wrap{
+            justify-content: flex-start;
+        }
+        .image-wrap{
+            margin-bottom: 32px;
+            height: 50%;
+        }
+    }  
+    
 }
 
 @media (max-width: 991px) {
@@ -44,6 +60,19 @@
             }
         }
     }
+    .science-page{ 
+        .item{
+            padding: 32px;
+        }
+    }
+    .popup{
+        .popup-content{
+            &.popup-description,
+            &.popup-submit {
+                padding: 54px 32px 32px;
+            }
+        }
+    } 
 }
 
 @media (max-width: 575px) {
@@ -72,4 +101,15 @@
             padding: 32px;
         }
     }
+    .science-page{
+        .item{
+            .info-block{
+                 .info-block-item{
+                     margin: 0 0 8px 0;
+                     width: 100%;
+                 }
+            }
+        } 
+    }
 }
+     

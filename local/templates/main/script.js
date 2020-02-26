@@ -13,6 +13,21 @@ $(document).ready(function () {
     window.onresize = function (e) {
         $('body').removeClass('mobile-menu-open').removeClass('overflow');
         $('.header').find('.menu').removeClass('open');
-    }
+    };
 
+    openModalSolution = function () {
+        $('.popup').jqmHide();
+        $('body').removeClass('overflow');
+        jqmPopup("solution-popup", 'html/solution-popup.php', true);
+    };
+    openModalSubmit = function () {
+        $('.popup').jqmHide();
+        $('body').removeClass('overflow');
+        jqmPopup("submit-popup", 'html/submit-popup.php', true);
+    };
+    openModalContacts = function () {
+        $('.popup').jqmHide();
+        $('body').removeClass('overflow');
+        jqmPopup("solution-popup", 'html/contacts-popup.php', true);
+    };
 });

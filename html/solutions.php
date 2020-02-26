@@ -20,7 +20,7 @@ $APPLICATION->SetTitle("Главная страница сайта");
                             <div class="solution-information">
                                 <a href="#" class="h4 title">Amylases of Fungal Origin</a>
                                 <a href="#" class="show-more">
-                                    <i class="icon icon-add-line"></i>
+                                    <i class="button-icon icon icon-add-line"></i>
                                     <span>Show More</span>
                                 </a>
                             </div>
@@ -32,7 +32,7 @@ $APPLICATION->SetTitle("Главная страница сайта");
                             <div class="solution-information">
                                 <a href="#" class="h4 title">Amylases of Fungal Origin</a>
                                 <a href="#" class="show-more">
-                                    <i class="icon icon-add-line"></i>
+                                    <i class="button-icon icon icon-add-line"></i>
                                     <span>Show More</span>
                                 </a>
                             </div>
@@ -44,7 +44,7 @@ $APPLICATION->SetTitle("Главная страница сайта");
                             <div class="solution-information">
                                 <a href="#" class="h4 title">Amylases of Fungal Origin</a>
                                 <a href="#" class="show-more">
-                                    <i class="icon icon-add-line"></i>
+                                    <i class="button-icon icon icon-add-line"></i>
                                     <span>Show More</span>
                                 </a>
                             </div>
@@ -56,7 +56,7 @@ $APPLICATION->SetTitle("Главная страница сайта");
                             <div class="solution-information">
                                 <a href="#" class="h4 title">Amylases of Fungal Origin</a>
                                 <a href="#" class="show-more">
-                                    <i class="icon icon-add-line"></i>
+                                    <i class="button-icon icon icon-add-line"></i>
                                     <span>Show More</span>
                                 </a>
                             </div>
@@ -68,7 +68,7 @@ $APPLICATION->SetTitle("Главная страница сайта");
                             <div class="solution-information">
                                 <a href="#" class="h4 title">Amylases of Fungal Origin</a>
                                 <a href="#" class="show-more">
-                                    <i class="icon icon-add-line"></i>
+                                    <i class="button-icon icon icon-add-line"></i>
                                     <span>Show More</span>
                                 </a>
                             </div>
@@ -80,7 +80,7 @@ $APPLICATION->SetTitle("Главная страница сайта");
                             <div class="solution-information">
                                 <a href="#" class="h4 title">Amylases of Fungal Origin</a>
                                 <a href="#" class="show-more">
-                                    <i class="icon icon-add-line"></i>
+                                    <i class="button-icon icon icon-add-line"></i>
                                     <span>Show More</span>
                                 </a>
                             </div>
@@ -92,7 +92,7 @@ $APPLICATION->SetTitle("Главная страница сайта");
                             <div class="solution-information">
                                 <a href="#" class="h4 title">Amylases of Fungal Origin</a>
                                 <a href="#" class="show-more">
-                                    <i class="icon icon-add-line"></i>
+                                    <i class="button-icon icon icon-add-line"></i>
                                     <span>Show More</span>
                                 </a>
                             </div>
@@ -104,7 +104,7 @@ $APPLICATION->SetTitle("Главная страница сайта");
                             <div class="solution-information">
                                 <a href="#" class="h4 title">Amylases of Fungal Origin</a>
                                 <a href="#" class="show-more">
-                                    <i class="icon icon-add-line"></i>
+                                    <i class="button-icon icon icon-add-line"></i>
                                     <span>Show More</span>
                                 </a>
                             </div>
@@ -116,7 +116,7 @@ $APPLICATION->SetTitle("Главная страница сайта");
                             <div class="solution-information">
                                 <a href="#" class="h4 title">Amylases of Fungal Origin</a>
                                 <a href="#" class="show-more">
-                                    <i class="icon icon-add-line"></i>
+                                    <i class="button-icon icon icon-add-line"></i>
                                     <span>Show More</span>
                                 </a>
                             </div>
@@ -128,7 +128,7 @@ $APPLICATION->SetTitle("Главная страница сайта");
                             <div class="solution-information">
                                 <a href="#" class="h4 title">Amylases of Fungal Origin</a>
                                 <a href="#" class="show-more">
-                                    <i class="icon icon-add-line"></i>
+                                    <i class="button-icon icon icon-add-line"></i>
                                     <span>Show More</span>
                                 </a>
                             </div>
@@ -136,7 +136,7 @@ $APPLICATION->SetTitle("Главная страница сайта");
                     </div>
                 </div>
                 <div class="button-show-more-solutions">
-                    <a href="#" class="btn btn-normal font-paragraph-base font-bold btn-outline"><span class="button-text">Show more solutions</span><i class="icon icon-arrow-down-s-line"></i></a>
+                    <a href="#" class="btn btn-normal font-paragraph-base font-bold btn-outline"><span class="button-text">Show more solutions</span><i class="button-icon icon icon-arrow-down-s-line"></i></a>
                 </div>
             </div>
         </div>

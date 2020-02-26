@@ -9,11 +9,11 @@ $APPLICATION->SetTitle("Главная страница сайта");
                 <div class="content">
                     <div class="row no-gutters actions">
                         <a href="#" class="link-back">
-                            <i class="icon icon-arrow-left-line"></i>
+                            <i class="button-icon icon icon-arrow-left-line"></i>
                             <span class='link-text font-paragraph-base font-bold'>Back</span>
                         </a>
                         <div class="date-wrap">
-                            <i class="icon icon-calendar-event-line"></i>
+                            <i class="button-icon icon icon-calendar-event-line"></i>
                             <span class="date font-paragraph-base font-bold">22/11/2019</span>
                         </div>
                     </div>
