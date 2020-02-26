@@ -9,6 +9,7 @@ $APPLICATION->SetTitle("footer");
                 <div class="copyright">
                     <span>© 2015–2020</span>
                     <span>Enzoway Grain Ingridient</span>
+                    <span><a href="#">Contact Us</a></span>
                 </div>
                 <div class="menu">
                     <nav class="menu-list">
