@@ -2,45 +2,6 @@
 require($_SERVER['DOCUMENT_ROOT'].'/bitrix/header.php');
 $APPLICATION->SetTitle("Main");
 ?>
-
-    <!-- noindex -->
-    <nav class="menu-list-mobile">
-        <a href="#" class="menu-link">Home</a>
-        <a href="#" class="menu-link">About</a>
-        <a href="#" class="menu-link">Solutions</a>
-        <a href="#" class="menu-link">Science</a>
-        <a href="#" class="menu-link">News</a>
-    </nav>
-    <!-- /noindex -->
-
-    <div class="header">
-        <div class="container">
-            <div class="main-header">
-                <div class="logo">
-                    <a href="">
-                        <img src="<?=SITE_TEMPLATE_PATH?>/images/logo.svg" alt="">
-                    </a>
-                </div>
-                <div class="menu">
-                    <div class="menu-icon">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                    </div>
-                    <nav class="menu-list">
-                        <a href="#" class="menu-link">Home</a>
-                        <a href="#" class="menu-link">About</a>
-                        <a href="#" class="menu-link">Solutions</a>
-                        <a href="#" class="menu-link">Science</a>
-                        <a href="#" class="menu-link">News</a>
-                    </nav>
-                    
-                </div>
-            </div>
-        </div>
-    </div>
-
     <div class="main-banner">
         <div class="background" style="background-image:url(<?=SITE_TEMPLATE_PATH?>/images/temp/header-bg.png)"></div>
         <div class="container">
@@ -237,29 +198,6 @@ $APPLICATION->SetTitle("Main");
             </div>
         </div>
     </div>
-
-    <div class="footer">
-        <div class="container">
-            <div class="footer-content">
-                <div class="copyright">
-                    <span>© 2015–2020</span>
-                    <span>Enzoway Grain Ingridient</span>
-                    <span><a href="#">Contact Us</a></span>
-                </div>
-                <div class="menu">
-                    <nav class="menu-list">
-                        <a href="#" class="menu-link">Home</a>
-                        <a href="#" class="menu-link">About</a>
-                        <a href="#" class="menu-link">Solutions</a>
-                        <a href="#" class="menu-link">Science</a>
-                        <a href="#" class="menu-link">News</a>
-                    </nav>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
 
 <?
 require($_SERVER['DOCUMENT_ROOT'].'/bitrix/footer.php');
