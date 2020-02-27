@@ -1,5 +1,5 @@
 <div class="popup-content popup-submit">
-    <a href="" onclick="$('.popup').jqmHide();" class="close"><i class='icon button-icon icon-close-line'></i></a>
+    <a href="javascript:void(0);" onclick="$('.popup').jqmHide();" class="close"><i class='icon button-icon icon-close-line'></i></a>
     <div class="form-popup row no-gutters content">
         <h2 class="form-title">Contact Us</h2>
         <form>
