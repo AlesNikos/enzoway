@@ -3,6 +3,20 @@ require($_SERVER['DOCUMENT_ROOT'].'/bitrix/header.php');
 $APPLICATION->SetTitle("Главная страница сайта");
 ?>
 
+    <div class="header-title">
+        <div class="background" style="background-image:url(<?=SITE_TEMPLATE_PATH?>/images/temp/header-bg.png)"></div>
+        <div class="container">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb font-paragraph-small">
+                    <li class="breadcrumb-item"><a href="#">Home</a></li>
+                    <li class="breadcrumb-item"><a href="#">News</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Bright Science Turns Old Reeds into Building Materials</li>
+                </ol>
+            </nav>
+            <h1 class="page-title">Bright Science Turns Old Reeds into Building Materials</h1>
+        </div>
+    </div>
+
     <div class="content-wrapper">
         <div class="news-element-page">
             <div class="container">
