@@ -152,6 +152,29 @@ h6, .h6 {
     font-weight: 600;
 }
 
+.error-msg {
+    display: none;
+}
+
+&.error {
+    position: relative;
+
+    input,
+    textarea {
+        border: 2px solid @color-deep-orange-300;
+        background-color: @color-deep-orange-50;
+    }
+
+    .error-msg {
+        font-size: 12px;
+        position: absolute;
+        display: block;
+        top: 0;
+        right: 0;
+        color: @color-deep-orange-300;
+    }
+}
+
 .btn {
     display: inline-flex;
     align-items: center;
