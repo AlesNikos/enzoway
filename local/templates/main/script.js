@@ -22,6 +22,11 @@ $(document).ready(function () {
         $('body').removeClass('overflow');
         jqmPopup("solution-popup", 'html/solution-popup.php', true);
     };
+    openModalContactForm = function () {
+        $('.popup').jqmHide();
+        $('body').removeClass('overflow');
+        jqmPopup("contact-form-popup", 'html/contact-form-popup.php', true);
+    };
     openModalSubmit = function () {
         $('.popup').jqmHide();
         $('body').removeClass('overflow');

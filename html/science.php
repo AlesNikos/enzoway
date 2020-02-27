@@ -20,8 +20,8 @@ $APPLICATION->SetTitle("Главная страница сайта");
         <div class="science-page">
             <div class="container">
                 <div class="items">
-                    <div class="item">
-                        <div class="h2">European Stressless Flour</div>
+                    <div class="item wow fadeIn" data-wow-delay='0.2s' data-wow-duration="0.7s">
+                        <a href="#" class="h2">European Stressless Flour</a>
                         <div class="description">
                             This material is a logical continuation of the series of articles about the features of the European flour mill, published in the September and October issues of the magazine: "Comparison of the principles of operation of Russian and European flour mills" and "Secrets of European flour mills".
                         </div>
@@ -34,7 +34,7 @@ $APPLICATION->SetTitle("Главная страница сайта");
                             </div>
                             <div class="col-auto info-block-item show-more">
                                  <div class="row no-gutters font-paragraph-base font-bold">
-                                     <a href="#"  onclick="openModalSubmit()"  class="show-more">
+                                     <a href="#" class="show-more">
                                         <i class="button-icon icon icon-add-line"></i>
                                         <span>Read More</span>
                                      </a>
@@ -42,10 +42,94 @@ $APPLICATION->SetTitle("Главная страница сайта");
                             </div>
                         </div>
                     </div>
-                    <div class="item"></div>
-                    <div class="item"></div>
-                    <div class="item"></div>
-                    <div class="item"></div>
+                    <div class="item wow fadeIn" data-wow-delay='0.2s' data-wow-duration="0.7s">
+                        <a href="#" class="h2">European Stressless Flour</a>
+                        <div class="description">
+                            This material is a logical continuation of the series of articles about the features of the European flour mill, published in the September and October issues of the magazine: "Comparison of the principles of operation of Russian and European flour mills" and "Secrets of European flour mills".
+                        </div>
+                        <div class="row no-gutters info-block">
+                            <div class="col-auto info-block-item views">
+                                <div class="row no-gutters font-paragraph-base font-bold">
+                                    <i class="button-icon icon icon-eye-line"></i>
+                                    <span>345</span>
+                                </div>
+                            </div>
+                            <div class="col-auto info-block-item show-more">
+                                 <div class="row no-gutters font-paragraph-base font-bold">
+                                     <a href="#" class="show-more">
+                                        <i class="button-icon icon icon-add-line"></i>
+                                        <span>Read More</span>
+                                     </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item wow fadeIn" data-wow-delay='0.2s' data-wow-duration="0.7s">
+                        <a href="#" class="h2">European Stressless Flour</a>
+                        <div class="description">
+                            This material is a logical continuation of the series of articles about the features of the European flour mill, published in the September and October issues of the magazine: "Comparison of the principles of operation of Russian and European flour mills" and "Secrets of European flour mills".
+                        </div>
+                        <div class="row no-gutters info-block">
+                            <div class="col-auto info-block-item views">
+                                <div class="row no-gutters font-paragraph-base font-bold">
+                                    <i class="button-icon icon icon-eye-line"></i>
+                                    <span>345</span>
+                                </div>
+                            </div>
+                            <div class="col-auto info-block-item show-more">
+                                 <div class="row no-gutters font-paragraph-base font-bold">
+                                     <a href="#" class="show-more">
+                                        <i class="button-icon icon icon-add-line"></i>
+                                        <span>Read More</span>
+                                     </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item wow fadeIn" data-wow-delay='0.2s' data-wow-duration="0.7s">
+                        <a href="#" class="h2">European Stressless Flour</a>
+                        <div class="description">
+                            This material is a logical continuation of the series of articles about the features of the European flour mill, published in the September and October issues of the magazine: "Comparison of the principles of operation of Russian and European flour mills" and "Secrets of European flour mills".
+                        </div>
+                        <div class="row no-gutters info-block">
+                            <div class="col-auto info-block-item views">
+                                <div class="row no-gutters font-paragraph-base font-bold">
+                                    <i class="button-icon icon icon-eye-line"></i>
+                                    <span>345</span>
+                                </div>
+                            </div>
+                            <div class="col-auto info-block-item show-more">
+                                 <div class="row no-gutters font-paragraph-base font-bold">
+                                     <a href="#" class="show-more">
+                                        <i class="button-icon icon icon-add-line"></i>
+                                        <span>Read More</span>
+                                     </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item wow fadeIn" data-wow-delay='0.2s' data-wow-duration="0.7s">
+                        <a href="#" class="h2">European Stressless Flour</a>
+                        <div class="description">
+                            This material is a logical continuation of the series of articles about the features of the European flour mill, published in the September and October issues of the magazine: "Comparison of the principles of operation of Russian and European flour mills" and "Secrets of European flour mills".
+                        </div>
+                        <div class="row no-gutters info-block">
+                            <div class="col-auto info-block-item views">
+                                <div class="row no-gutters font-paragraph-base font-bold">
+                                    <i class="button-icon icon icon-eye-line"></i>
+                                    <span>345</span>
+                                </div>
+                            </div>
+                            <div class="col-auto info-block-item show-more">
+                                 <div class="row no-gutters font-paragraph-base font-bold">
+                                     <a href="#" class="show-more">
+                                        <i class="button-icon icon icon-add-line"></i>
+                                        <span>Read More</span>
+                                     </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div class="pagination-nav">
                     <nav>

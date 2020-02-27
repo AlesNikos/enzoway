@@ -25,7 +25,7 @@ $APPLICATION->SetTitle("Main");
                             <div class="solution-information">
                                 <a href="#" class="h4 title">Amylases of Fungal Origin</a>
                                 <a href="#" class="show-more">
-                                    <i class="icon icon-add-line"></i>
+                                    <i class="icon button-icon icon-add-line"></i>
                                     <span>Show More</span>
                                 </a>
                             </div>
@@ -37,7 +37,7 @@ $APPLICATION->SetTitle("Main");
                             <div class="solution-information">
                                 <a href="#" class="h4 title">Amylases of Fungal Origin</a>
                                 <a href="#" class="show-more">
-                                    <i class="icon icon-add-line"></i>
+                                    <i class="icon button-icon icon-add-line"></i>
                                     <span>Show More</span>
                                 </a>
                             </div>
@@ -49,7 +49,7 @@ $APPLICATION->SetTitle("Main");
                             <div class="solution-information">
                                 <a href="#" class="h4 title">Amylases of Fungal Origin</a>
                                 <a href="#" class="show-more">
-                                    <i class="icon icon-add-line"></i>
+                                    <i class="icon button-icon icon-add-line"></i>
                                     <span>Show More</span>
                                 </a>
                             </div>
@@ -61,7 +61,7 @@ $APPLICATION->SetTitle("Main");
                             <div class="solution-information">
                                 <a href="#" class="h4 title">Amylases of Fungal Origin</a>
                                 <a href="#" class="show-more">
-                                    <i class="icon icon-add-line"></i>
+                                    <i class="icon button-icon icon-add-line"></i>
                                     <span>Show More</span>
                                 </a>
                             </div>
@@ -73,7 +73,7 @@ $APPLICATION->SetTitle("Main");
                             <div class="solution-information">
                                 <a href="#" class="h4 title">Amylases of Fungal Origin</a>
                                 <a href="#" class="show-more">
-                                    <i class="icon icon-add-line"></i>
+                                    <i class="icon button-icon icon-add-line"></i>
                                     <span>Show More</span>
                                 </a>
                             </div>
@@ -85,7 +85,7 @@ $APPLICATION->SetTitle("Main");
                             <div class="solution-information">
                                 <a href="#" class="h4 title">Amylases of Fungal Origin</a>
                                 <a href="#" class="show-more">
-                                    <i class="icon icon-add-line"></i>
+                                    <i class="icon button-icon icon-add-line"></i>
                                     <span>Show More</span>
                                 </a>
                             </div>
@@ -97,7 +97,7 @@ $APPLICATION->SetTitle("Main");
                             <div class="solution-information">
                                 <a href="#" class="h4 title">Amylases of Fungal Origin</a>
                                 <a href="#" class="show-more">
-                                    <i class="icon icon-add-line"></i>
+                                    <i class="icon button-icon icon-add-line"></i>
                                     <span>Show More</span>
                                 </a>
                             </div>
@@ -109,7 +109,7 @@ $APPLICATION->SetTitle("Main");
                             <div class="solution-information">
                                 <a href="#" class="h4 title">Amylases of Fungal Origin</a>
                                 <a href="#" class="show-more">
-                                    <i class="icon icon-add-line"></i>
+                                    <i class="icon button-icon icon-add-line"></i>
                                     <span>Show More</span>
                                 </a>
                             </div>
@@ -121,7 +121,7 @@ $APPLICATION->SetTitle("Main");
                             <div class="solution-information">
                                 <a href="#" class="h4 title">Amylases of Fungal Origin</a>
                                 <a href="#" class="show-more">
-                                    <i class="icon icon-add-line"></i>
+                                    <i class="icon button-icon icon-add-line"></i>
                                     <span>Show More</span>
                                 </a>
                             </div>
