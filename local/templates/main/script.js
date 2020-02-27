@@ -1,5 +1,7 @@
 $(document).ready(function () {
 
+    new WOW().init();
+
     $('.menu-icon').on('click', function (e) {
         e.preventDefault();
         $(this).closest('.menu').toggleClass('open');
