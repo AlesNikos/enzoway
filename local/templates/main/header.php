@@ -74,15 +74,15 @@ use Bitrix\Main\Page\Asset;
   
     <div id="panel"><? $APPLICATION->ShowPanel(); ?></div>
     
-       <!-- noindex -->
-    <nav class="menu-list-mobile">
-        <a href="#" class="menu-link">Home</a>
-        <a href="#" class="menu-link">About</a>
-        <a href="#" class="menu-link">Solutions</a>
-        <a href="#" class="menu-link">Science</a>
-        <a href="#" class="menu-link">News</a>
-    </nav>
-    <!-- /noindex -->
+    <noindex>
+        <nav class="menu-list-mobile">
+            <a href="#" class="menu-link">Home</a>
+            <a href="#" class="menu-link">About</a>
+            <a href="#" class="menu-link">Solutions</a>
+            <a href="#" class="menu-link">Science</a>
+            <a href="#" class="menu-link">News</a>
+        </nav>
+    </noindex>
 
     <div class="header">
         <div class="container">
@@ -111,5 +111,9 @@ use Bitrix\Main\Page\Asset;
             </div>
         </div>
     </div>
+
+    <!-- reserve wrapper -->
+    <div class="general-wrapper">
+    <!-- reserve-wrapper -->
 
    

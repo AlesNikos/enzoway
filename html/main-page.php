@@ -19,7 +19,7 @@ $APPLICATION->SetTitle("Main");
         <div class="solutions-page">
             <div class="container">
                 <div class="items row">
-                    <div class="item-wrap col-md-4 col-sm-6 col-12">
+                    <div class="item-wrap col-md-4 col-sm-6 col-12 wow fadeIn" data-wow-delay="0.2s" data-wow-duration="0.8s">
                         <div class="item">
                             <a href="#" class="img" style="background-image: url('https://s3-alpha-sig.figma.com/img/cb39/b737/7700625300253b6bd5c2e4bb8e95377a?Expires=1583712000&Signature=Da9kPuoRc7m5a5ntjFvNsQUS4zCpTkqjApP3M-GkirrbA6hv6-yUPfdwnMWdqd4CsoJmVYR30McxocKvcL9UMvzupet7topALNJ~Bl3k-TjrDNepKOPoYrXHld-fP5R-EmBvyTgbo9eCQrhPqfqF7vtwvKb7QrtflMTQi8P5gun2K4xZCddS8sPVxarjC-UVYUoyuCcDBCs7vIODRw~cr0gRETwYoXbszNOwO0yCO3UKBGZ7yabx~VkQa0xVOYcNfq7L3DhnUa0rwrEtta33YO9drzUeaaveO9b86IJvEdMFS6Jwb1AXb-Ik9p-uZjp3TohkzZ0PjO-I1A9Ep5UP-w__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA')"></a>
                             <div class="solution-information">
@@ -31,7 +31,7 @@ $APPLICATION->SetTitle("Main");
                             </div>
                         </div>
                     </div>
-                    <div class="item-wrap col-md-4 col-sm-6 col-12">
+                    <div class="item-wrap col-md-4 col-sm-6 col-12 wow fadeIn" data-wow-delay="0.4s" data-wow-duration="0.8s">
                         <div class="item">
                             <a href="#" class="img" style="background-image: url('https://s3-alpha-sig.figma.com/img/cb39/b737/7700625300253b6bd5c2e4bb8e95377a?Expires=1583712000&Signature=Da9kPuoRc7m5a5ntjFvNsQUS4zCpTkqjApP3M-GkirrbA6hv6-yUPfdwnMWdqd4CsoJmVYR30McxocKvcL9UMvzupet7topALNJ~Bl3k-TjrDNepKOPoYrXHld-fP5R-EmBvyTgbo9eCQrhPqfqF7vtwvKb7QrtflMTQi8P5gun2K4xZCddS8sPVxarjC-UVYUoyuCcDBCs7vIODRw~cr0gRETwYoXbszNOwO0yCO3UKBGZ7yabx~VkQa0xVOYcNfq7L3DhnUa0rwrEtta33YO9drzUeaaveO9b86IJvEdMFS6Jwb1AXb-Ik9p-uZjp3TohkzZ0PjO-I1A9Ep5UP-w__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA')"></a>
                             <div class="solution-information">
@@ -43,7 +43,7 @@ $APPLICATION->SetTitle("Main");
                             </div>
                         </div>
                     </div>
-                    <div class="item-wrap col-md-4 col-sm-6 col-12">
+                    <div class="item-wrap col-md-4 col-sm-6 col-12 wow fadeIn" data-wow-delay="0.6s" data-wow-duration="0.8s">
                         <div class="item">
                             <a href="#" class="img" style="background-image: url('https://s3-alpha-sig.figma.com/img/cb39/b737/7700625300253b6bd5c2e4bb8e95377a?Expires=1583712000&Signature=Da9kPuoRc7m5a5ntjFvNsQUS4zCpTkqjApP3M-GkirrbA6hv6-yUPfdwnMWdqd4CsoJmVYR30McxocKvcL9UMvzupet7topALNJ~Bl3k-TjrDNepKOPoYrXHld-fP5R-EmBvyTgbo9eCQrhPqfqF7vtwvKb7QrtflMTQi8P5gun2K4xZCddS8sPVxarjC-UVYUoyuCcDBCs7vIODRw~cr0gRETwYoXbszNOwO0yCO3UKBGZ7yabx~VkQa0xVOYcNfq7L3DhnUa0rwrEtta33YO9drzUeaaveO9b86IJvEdMFS6Jwb1AXb-Ik9p-uZjp3TohkzZ0PjO-I1A9Ep5UP-w__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA')"></a>
                             <div class="solution-information">
@@ -55,7 +55,7 @@ $APPLICATION->SetTitle("Main");
                             </div>
                         </div>
                     </div>
-                    <div class="item-wrap col-md-4 col-sm-6 col-12">
+                    <div class="item-wrap col-md-4 col-sm-6 col-12 wow fadeIn" data-wow-delay="0.6s" data-wow-duration="0.8s">
                         <div class="item">
                             <a href="#" class="img" style="background-image: url('https://s3-alpha-sig.figma.com/img/cb39/b737/7700625300253b6bd5c2e4bb8e95377a?Expires=1583712000&Signature=Da9kPuoRc7m5a5ntjFvNsQUS4zCpTkqjApP3M-GkirrbA6hv6-yUPfdwnMWdqd4CsoJmVYR30McxocKvcL9UMvzupet7topALNJ~Bl3k-TjrDNepKOPoYrXHld-fP5R-EmBvyTgbo9eCQrhPqfqF7vtwvKb7QrtflMTQi8P5gun2K4xZCddS8sPVxarjC-UVYUoyuCcDBCs7vIODRw~cr0gRETwYoXbszNOwO0yCO3UKBGZ7yabx~VkQa0xVOYcNfq7L3DhnUa0rwrEtta33YO9drzUeaaveO9b86IJvEdMFS6Jwb1AXb-Ik9p-uZjp3TohkzZ0PjO-I1A9Ep5UP-w__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA')"></a>
                             <div class="solution-information">
@@ -67,7 +67,7 @@ $APPLICATION->SetTitle("Main");
                             </div>
                         </div>
                     </div>
-                    <div class="item-wrap col-md-4 col-sm-6 col-12">
+                    <div class="item-wrap col-md-4 col-sm-6 col-12 wow fadeIn" data-wow-delay="0.2s" data-wow-duration="0.8s">
                         <div class="item">
                             <a href="#" class="img" style="background-image: url('https://s3-alpha-sig.figma.com/img/cb39/b737/7700625300253b6bd5c2e4bb8e95377a?Expires=1583712000&Signature=Da9kPuoRc7m5a5ntjFvNsQUS4zCpTkqjApP3M-GkirrbA6hv6-yUPfdwnMWdqd4CsoJmVYR30McxocKvcL9UMvzupet7topALNJ~Bl3k-TjrDNepKOPoYrXHld-fP5R-EmBvyTgbo9eCQrhPqfqF7vtwvKb7QrtflMTQi8P5gun2K4xZCddS8sPVxarjC-UVYUoyuCcDBCs7vIODRw~cr0gRETwYoXbszNOwO0yCO3UKBGZ7yabx~VkQa0xVOYcNfq7L3DhnUa0rwrEtta33YO9drzUeaaveO9b86IJvEdMFS6Jwb1AXb-Ik9p-uZjp3TohkzZ0PjO-I1A9Ep5UP-w__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA')"></a>
                             <div class="solution-information">
@@ -79,7 +79,7 @@ $APPLICATION->SetTitle("Main");
                             </div>
                         </div>
                     </div>
-                    <div class="item-wrap col-md-4 col-sm-6 col-12">
+                    <div class="item-wrap col-md-4 col-sm-6 col-12 wow fadeIn" data-wow-delay="0.4s" data-wow-duration="0.8s">
                         <div class="item">
                             <a href="#" class="img" style="background-image: url('https://s3-alpha-sig.figma.com/img/cb39/b737/7700625300253b6bd5c2e4bb8e95377a?Expires=1583712000&Signature=Da9kPuoRc7m5a5ntjFvNsQUS4zCpTkqjApP3M-GkirrbA6hv6-yUPfdwnMWdqd4CsoJmVYR30McxocKvcL9UMvzupet7topALNJ~Bl3k-TjrDNepKOPoYrXHld-fP5R-EmBvyTgbo9eCQrhPqfqF7vtwvKb7QrtflMTQi8P5gun2K4xZCddS8sPVxarjC-UVYUoyuCcDBCs7vIODRw~cr0gRETwYoXbszNOwO0yCO3UKBGZ7yabx~VkQa0xVOYcNfq7L3DhnUa0rwrEtta33YO9drzUeaaveO9b86IJvEdMFS6Jwb1AXb-Ik9p-uZjp3TohkzZ0PjO-I1A9Ep5UP-w__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA')"></a>
                             <div class="solution-information">
@@ -91,7 +91,7 @@ $APPLICATION->SetTitle("Main");
                             </div>
                         </div>
                     </div>
-                    <div class="item-wrap col-md-4 col-sm-6 col-12">
+                    <div class="item-wrap col-md-4 col-sm-6 col-12 wow fadeIn" data-wow-delay="0.2s" data-wow-duration="0.8s">
                         <div class="item">
                             <a href="#" class="img" style="background-image: url('https://s3-alpha-sig.figma.com/img/cb39/b737/7700625300253b6bd5c2e4bb8e95377a?Expires=1583712000&Signature=Da9kPuoRc7m5a5ntjFvNsQUS4zCpTkqjApP3M-GkirrbA6hv6-yUPfdwnMWdqd4CsoJmVYR30McxocKvcL9UMvzupet7topALNJ~Bl3k-TjrDNepKOPoYrXHld-fP5R-EmBvyTgbo9eCQrhPqfqF7vtwvKb7QrtflMTQi8P5gun2K4xZCddS8sPVxarjC-UVYUoyuCcDBCs7vIODRw~cr0gRETwYoXbszNOwO0yCO3UKBGZ7yabx~VkQa0xVOYcNfq7L3DhnUa0rwrEtta33YO9drzUeaaveO9b86IJvEdMFS6Jwb1AXb-Ik9p-uZjp3TohkzZ0PjO-I1A9Ep5UP-w__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA')"></a>
                             <div class="solution-information">
@@ -103,7 +103,7 @@ $APPLICATION->SetTitle("Main");
                             </div>
                         </div>
                     </div>
-                    <div class="item-wrap col-md-4 col-sm-6 col-12">
+                    <div class="item-wrap col-md-4 col-sm-6 col-12 wow fadeIn" data-wow-delay="0.4s" data-wow-duration="0.8s">
                         <div class="item">
                             <a href="#" class="img" style="background-image: url('https://s3-alpha-sig.figma.com/img/cb39/b737/7700625300253b6bd5c2e4bb8e95377a?Expires=1583712000&Signature=Da9kPuoRc7m5a5ntjFvNsQUS4zCpTkqjApP3M-GkirrbA6hv6-yUPfdwnMWdqd4CsoJmVYR30McxocKvcL9UMvzupet7topALNJ~Bl3k-TjrDNepKOPoYrXHld-fP5R-EmBvyTgbo9eCQrhPqfqF7vtwvKb7QrtflMTQi8P5gun2K4xZCddS8sPVxarjC-UVYUoyuCcDBCs7vIODRw~cr0gRETwYoXbszNOwO0yCO3UKBGZ7yabx~VkQa0xVOYcNfq7L3DhnUa0rwrEtta33YO9drzUeaaveO9b86IJvEdMFS6Jwb1AXb-Ik9p-uZjp3TohkzZ0PjO-I1A9Ep5UP-w__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA')"></a>
                             <div class="solution-information">
@@ -115,7 +115,7 @@ $APPLICATION->SetTitle("Main");
                             </div>
                         </div>
                     </div>
-                    <div class="item-wrap col-md-4 col-sm-6 col-12">
+                    <div class="item-wrap col-md-4 col-sm-6 col-12 wow fadeIn" data-wow-delay="0.6s" data-wow-duration="0.8s">
                         <div class="item">
                             <a href="#" class="img" style="background-image: url('https://s3-alpha-sig.figma.com/img/cb39/b737/7700625300253b6bd5c2e4bb8e95377a?Expires=1583712000&Signature=Da9kPuoRc7m5a5ntjFvNsQUS4zCpTkqjApP3M-GkirrbA6hv6-yUPfdwnMWdqd4CsoJmVYR30McxocKvcL9UMvzupet7topALNJ~Bl3k-TjrDNepKOPoYrXHld-fP5R-EmBvyTgbo9eCQrhPqfqF7vtwvKb7QrtflMTQi8P5gun2K4xZCddS8sPVxarjC-UVYUoyuCcDBCs7vIODRw~cr0gRETwYoXbszNOwO0yCO3UKBGZ7yabx~VkQa0xVOYcNfq7L3DhnUa0rwrEtta33YO9drzUeaaveO9b86IJvEdMFS6Jwb1AXb-Ik9p-uZjp3TohkzZ0PjO-I1A9Ep5UP-w__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA')"></a>
                             <div class="solution-information">
@@ -136,7 +136,7 @@ $APPLICATION->SetTitle("Main");
     </div>
 
     <div class="wrapper-section">
-        <div class="how-works">
+        <div class="how-works wow fadeIn" data-wow-delay="0.3s" data-wow-duration="1s">
                 <div class="section-name">
                     <div class="font-subheader">3D-Visualisation</div>
                     <div class="hero-h2 title">How the product works</div>
@@ -148,7 +148,7 @@ $APPLICATION->SetTitle("Main");
     </div>
 
     <div class="wrapper-section">
-        <div class="advantages">
+        <div class="advantages wow fadeIn" data-wow-delay="0.3s" data-wow-duration="1s">
             <!-- <div class="section-name">
                 <div class="font-subheader">Video</div>
                 <div class="hero-h2 title">Advantages of this technology</div>
@@ -166,26 +166,30 @@ $APPLICATION->SetTitle("Main");
 
      <div class="wrapper-section">
         <div class="container">
-            <div class="form">
+            <div class="form wow zoomIn" data-wow-delay="0.2s" data-wow-duration="1.5s">
                 <h2 class="form-title">Send us an email</h2>
                 <form>
                     <div class="form-row">
                         <div class="form-group col">
+                            <div class="error-msg">Incorrect phone number</div>
                             <label for="exampleFormControlTextarea1">Text message<span>*</span></label>
                             <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
                         </div>
                         <div class="right-block col-auto">
                             <div class="form-group">
-                                <label for="inputEmail4">Email<span>*</span></label>
-                                <input type="email" class="form-control" id="inputEmail4" placeholder="konstantin_baker@gmail.com">
+                                <div class="error-msg">Incorrect phone number</div>
+                                <label for="inputEmail1">E-mail<span>*</span></label>
+                                <input type="email" class="form-control" id="inputEmail1" placeholder="konstantin_baker@gmail.com">
                             </div>
                             <div class="form-group">
-                                <label for="inputPassword4">Your Name or Company</label>
-                                <input type="password" class="form-control" id="inputPassword4" placeholder="Konstantin Petrov">
+                                <div class="error-msg">Incorrect phone number</div>
+                                <label for="inputName1">Your Name or Company</label>
+                                <input type="text" class="form-control" id="inputName1" placeholder="Konstantin Petrov">
                             </div>
                             <div class="form-group">
-                                <label for="inputPassword4">Phone number</label>
-                                <input type="password" class="form-control" id="inputPassword4" placeholder="+7 (987) 654-32-10">
+                                <div class="error-msg">Incorrect phone number</div>
+                                <label for="inputPhone1">Phone number</label>
+                                <input type="text" class="form-control" id="inputPhone1" placeholder="+7 (987) 654-32-10" data-mask="phone">
                             </div>
 
                         </div>

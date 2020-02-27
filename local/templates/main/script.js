@@ -1,6 +1,11 @@
 $(document).ready(function () {
 
-    new WOW().init();
+    new WOW({
+        mobile: false,
+        offset: 100 
+    }).init();
+
+    $('[data-mask="phone"]').mask("+7 (999) 999-99-99");
 
     $('.menu-icon').on('click', function (e) {
         e.preventDefault();

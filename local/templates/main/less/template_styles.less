@@ -684,8 +684,9 @@ body {
 /* header-title */
 .header-title {
     position: relative;
-    height: 260px;
+    // height: 260px;
     padding-top: 40px;
+    padding-bottom: 148px;
     background-color: #F9F9F9;
     text-align: center;
     color: @color-white;
@@ -758,6 +759,9 @@ body {
             padding-right: 12px;
             color: @color-white;
         }
+    }
+    .page-title {
+        margin-bottom: 0;
     }
 }
 
@@ -836,6 +840,7 @@ body {
 
     .hero-h1 {
         margin-bottom: 24px;
+        text-transform: uppercase;
     }
 
     .text {
@@ -1050,8 +1055,9 @@ body {
     background-color: @color-white;
     box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.02);
     border-radius: 8px;
+    margin-bottom: 120px;
     .form-title {
-        margin-bottom: 32px;
+        margin-bottom: 28px;
     }
     .right-block {
         max-width: 334px;
@@ -1059,10 +1065,10 @@ body {
         margin-left: 30px;
     }
     .form-group {
-        margin-bottom: 16px;
+        margin-bottom: 12px;
         > label {
             .font-paragraph-small;
-            margin-bottom: 4px;
+            margin-bottom: 8px;
         }
         .form-control {
             height: 56px;
@@ -1074,7 +1080,7 @@ body {
         textarea {
             &.form-control {
                 // max-width: 630px;
-                height: ~"calc(100% - 28px)";
+                height: ~"calc(100% - 32px)";
                 padding: 16px 20px;
                 background: #F2F2F2;
                 border-radius: 4px;
@@ -1086,7 +1092,7 @@ body {
     .buttons {
         display: flex;
         align-items: center;
-        margin-top: 16px;
+        margin-top: 20px;
     }
     .privacy {
         max-width: 190px;

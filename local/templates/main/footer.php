@@ -4,6 +4,9 @@ if (!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED !== true)
 
 ?>
 
+    <!-- reserve-wrapper -->
+    </div>
+    <!-- reserve-wrapper -->
 
     <div class="footer">
         <div class="container">

@@ -3,7 +3,7 @@ require($_SERVER['DOCUMENT_ROOT'].'/bitrix/header.php');
 $APPLICATION->SetTitle("header");
 ?>
 
-    <!-- noindex -->
+    <noindex>
     <nav class="menu-list-mobile">
         <a href="#" class="menu-link">Home</a>
         <a href="#" class="menu-link">About</a>
@@ -11,7 +11,7 @@ $APPLICATION->SetTitle("header");
         <a href="#" class="menu-link">Science</a>
         <a href="#" class="menu-link">News</a>
     </nav>
-    <!-- /noindex -->
+    </noindex>
 
     <div class="header">
         <div class="container">

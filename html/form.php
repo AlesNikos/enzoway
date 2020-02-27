@@ -10,19 +10,23 @@ $APPLICATION->SetTitle("form");
                 <form>
                     <div class="form-row">
                         <div class="form-group col">
+                            <div class="error-msg">Incorrect phone number</div>
                             <label for="exampleFormControlTextarea1">Text message<span>*</span></label>
                             <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
                         </div>
                         <div class="right-block col-auto">
                             <div class="form-group">
+                                <div class="error-msg">Incorrect phone number</div>
                                 <label for="inputEmail4">Email<span>*</span></label>
                                 <input type="email" class="form-control" id="inputEmail4" placeholder="konstantin_baker@gmail.com">
                             </div>
                             <div class="form-group">
+                                <div class="error-msg">Incorrect phone number</div>
                                 <label for="inputPassword4">Your Name or Company</label>
                                 <input type="password" class="form-control" id="inputPassword4" placeholder="Konstantin Petrov">
                             </div>
                             <div class="form-group">
+                                <div class="error-msg">Incorrect phone number</div>
                                 <label for="inputPassword4">Phone number</label>
                                 <input type="password" class="form-control" id="inputPassword4" placeholder="+7 (987) 654-32-10">
                             </div>
