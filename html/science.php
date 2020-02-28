@@ -20,7 +20,7 @@ $APPLICATION->SetTitle("Главная страница сайта");
         <div class="science-page">
             <div class="container">
                 <div class="items">
-                    <div class="item wow fadeIn" data-wow-delay='0.2s' data-wow-duration="0.7s">
+                    <div class="item wow fadeIn" data-wow-delay='0.6s' data-wow-duration="0.8s">
                         <a href="#" class="h2">European Stressless Flour</a>
                         <div class="description">
                             This material is a logical continuation of the series of articles about the features of the European flour mill, published in the September and October issues of the magazine: "Comparison of the principles of operation of Russian and European flour mills" and "Secrets of European flour mills".
@@ -42,7 +42,7 @@ $APPLICATION->SetTitle("Главная страница сайта");
                             </div>
                         </div>
                     </div>
-                    <div class="item wow fadeIn" data-wow-delay='0.2s' data-wow-duration="0.7s">
+                    <div class="item wow fadeIn" data-wow-delay='1s' data-wow-duration="0.8s">
                         <a href="#" class="h2">European Stressless Flour</a>
                         <div class="description">
                             This material is a logical continuation of the series of articles about the features of the European flour mill, published in the September and October issues of the magazine: "Comparison of the principles of operation of Russian and European flour mills" and "Secrets of European flour mills".
@@ -64,7 +64,7 @@ $APPLICATION->SetTitle("Главная страница сайта");
                             </div>
                         </div>
                     </div>
-                    <div class="item wow fadeIn" data-wow-delay='0.2s' data-wow-duration="0.7s">
+                    <div class="item wow fadeIn" data-wow-delay='0.4s' data-wow-duration="0.8s">
                         <a href="#" class="h2">European Stressless Flour</a>
                         <div class="description">
                             This material is a logical continuation of the series of articles about the features of the European flour mill, published in the September and October issues of the magazine: "Comparison of the principles of operation of Russian and European flour mills" and "Secrets of European flour mills".
@@ -86,7 +86,7 @@ $APPLICATION->SetTitle("Главная страница сайта");
                             </div>
                         </div>
                     </div>
-                    <div class="item wow fadeIn" data-wow-delay='0.2s' data-wow-duration="0.7s">
+                    <div class="item wow fadeIn" data-wow-delay='0.4s' data-wow-duration="0.8s">
                         <a href="#" class="h2">European Stressless Flour</a>
                         <div class="description">
                             This material is a logical continuation of the series of articles about the features of the European flour mill, published in the September and October issues of the magazine: "Comparison of the principles of operation of Russian and European flour mills" and "Secrets of European flour mills".
@@ -108,7 +108,7 @@ $APPLICATION->SetTitle("Главная страница сайта");
                             </div>
                         </div>
                     </div>
-                    <div class="item wow fadeIn" data-wow-delay='0.2s' data-wow-duration="0.7s">
+                    <div class="item wow fadeIn" data-wow-delay='0.4s' data-wow-duration="0.8s">
                         <a href="#" class="h2">European Stressless Flour</a>
                         <div class="description">
                             This material is a logical continuation of the series of articles about the features of the European flour mill, published in the September and October issues of the magazine: "Comparison of the principles of operation of Russian and European flour mills" and "Secrets of European flour mills".
@@ -148,10 +148,10 @@ $APPLICATION->SetTitle("Главная страница сайта");
     
 
 
-    <script>
+    <!-- <script>
           wow = new WOW();
           wow.init();
-    </script>
+    </script> -->
 <?
 require($_SERVER['DOCUMENT_ROOT'].'/bitrix/footer.php');
 ?>

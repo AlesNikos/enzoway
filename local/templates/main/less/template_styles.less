@@ -236,13 +236,20 @@ body {
         flex-direction: column;
         padding: 24px;
         height: ~'calc(100% - 200px)';
+        .title-wrap {
+            margin-bottom: 8px;
+        }
+        .show-more-wrap {
+            display: flex;
+            margin-top: auto;
+        }
         .title{
             color: @color-blue-gray-900;
             text-decoration: none;
         }
         .show-more{
             display: flex;
-            margin-top: auto;
+            // margin-top: auto;
         }
     }
     .item-wrap{
@@ -1032,12 +1039,16 @@ body {
     }
 }
 
+.form-wrapper {
+    overflow: hidden;
+    margin-bottom: 120px;
+}
 .form {
     padding: 64px 88px;
     background-color: @color-white;
     box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.02);
     border-radius: 8px;
-    margin-bottom: 120px;
+    // margin-bottom: 120px;
     .form-title {
         margin-bottom: 28px;
     }

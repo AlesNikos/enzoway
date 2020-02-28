@@ -19,7 +19,7 @@ $APPLICATION->SetTitle("Главная страница сайта");
     <div class="content-wrapper">
         <div class="solutions-page">
             <div class="container">
-                <div class="text-block">
+                <div class="text-block wow fadeIn" data-wow-delay="0.6s" data-wow-duration="0.8s">
                     <div class="h2">Text for SEO</div>
                     <div class="text font-paragraph-base">
                         <p>The partnership between DSM and grain Ingredient began with a distribution relationship, and then developed into a unique project for the production of various enzyme compositions and adaptations under the EnzoWay brand. </p>
@@ -27,123 +27,129 @@ $APPLICATION->SetTitle("Главная страница сайта");
                     </div>
                 </div>
                 <div class="items row">
-                    <div class="item-wrap col-md-4 col-sm-6 col-12">
+                    <div class="item-wrap col-md-4 col-sm-6 col-12 wow fadeIn" data-wow-delay="1s" data-wow-duration="0.8s">
                         <div class="item">
                             <a href="#" class="img" style="background-image: url('https://s3-alpha-sig.figma.com/img/cb39/b737/7700625300253b6bd5c2e4bb8e95377a?Expires=1583712000&Signature=Da9kPuoRc7m5a5ntjFvNsQUS4zCpTkqjApP3M-GkirrbA6hv6-yUPfdwnMWdqd4CsoJmVYR30McxocKvcL9UMvzupet7topALNJ~Bl3k-TjrDNepKOPoYrXHld-fP5R-EmBvyTgbo9eCQrhPqfqF7vtwvKb7QrtflMTQi8P5gun2K4xZCddS8sPVxarjC-UVYUoyuCcDBCs7vIODRw~cr0gRETwYoXbszNOwO0yCO3UKBGZ7yabx~VkQa0xVOYcNfq7L3DhnUa0rwrEtta33YO9drzUeaaveO9b86IJvEdMFS6Jwb1AXb-Ik9p-uZjp3TohkzZ0PjO-I1A9Ep5UP-w__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA')"></a>
                             <div class="solution-information">
-                                <a href="#" class="h4 title">Amylases of Fungal Origin</a>
-                                <a href="#" class="show-more">
-                                    <i class="button-icon icon icon-add-line"></i>
-                                    <span>Show More</span>
-                                </a>
+                                <span class="title-wrap"><a href="#" class="h4 title">Amylases of Fungal Origin</a></span>
+                                <span class="show-more-wrap">
+                                    <a href="#" class="show-more">
+                                        <i class="icon button-icon icon-add-line"></i>
+                                        <span>Show More</span>
+                                    </a>
+                                </span>
                             </div>
                         </div>
                     </div>
-                    <div class="item-wrap col-md-4 col-sm-6 col-12">
+                    <div class="item-wrap col-md-4 col-sm-6 col-12 wow fadeIn" data-wow-delay="1s" data-wow-duration="0.8s">
                         <div class="item">
                             <a href="#" class="img" style="background-image: url('https://s3-alpha-sig.figma.com/img/cb39/b737/7700625300253b6bd5c2e4bb8e95377a?Expires=1583712000&Signature=Da9kPuoRc7m5a5ntjFvNsQUS4zCpTkqjApP3M-GkirrbA6hv6-yUPfdwnMWdqd4CsoJmVYR30McxocKvcL9UMvzupet7topALNJ~Bl3k-TjrDNepKOPoYrXHld-fP5R-EmBvyTgbo9eCQrhPqfqF7vtwvKb7QrtflMTQi8P5gun2K4xZCddS8sPVxarjC-UVYUoyuCcDBCs7vIODRw~cr0gRETwYoXbszNOwO0yCO3UKBGZ7yabx~VkQa0xVOYcNfq7L3DhnUa0rwrEtta33YO9drzUeaaveO9b86IJvEdMFS6Jwb1AXb-Ik9p-uZjp3TohkzZ0PjO-I1A9Ep5UP-w__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA')"></a>
                             <div class="solution-information">
-                                <a href="#" class="h4 title">Amylases of Fungal Origin</a>
-                                <a href="#" class="show-more">
-                                    <i class="button-icon icon icon-add-line"></i>
-                                    <span>Show More</span>
-                                </a>
+                                <span class="title-wrap"><a href="#" class="h4 title">Amylases of Fungal Origin</a></span>
+                                <span class="show-more-wrap">
+                                    <a href="#" class="show-more">
+                                        <i class="icon button-icon icon-add-line"></i>
+                                        <span>Show More</span>
+                                    </a>
+                                </span>
                             </div>
                         </div>
                     </div>
-                    <div class="item-wrap col-md-4 col-sm-6 col-12">
+                    <div class="item-wrap col-md-4 col-sm-6 col-12 wow fadeIn" data-wow-delay="1s" data-wow-duration="0.8s">
                         <div class="item">
                             <a href="#" class="img" style="background-image: url('https://s3-alpha-sig.figma.com/img/cb39/b737/7700625300253b6bd5c2e4bb8e95377a?Expires=1583712000&Signature=Da9kPuoRc7m5a5ntjFvNsQUS4zCpTkqjApP3M-GkirrbA6hv6-yUPfdwnMWdqd4CsoJmVYR30McxocKvcL9UMvzupet7topALNJ~Bl3k-TjrDNepKOPoYrXHld-fP5R-EmBvyTgbo9eCQrhPqfqF7vtwvKb7QrtflMTQi8P5gun2K4xZCddS8sPVxarjC-UVYUoyuCcDBCs7vIODRw~cr0gRETwYoXbszNOwO0yCO3UKBGZ7yabx~VkQa0xVOYcNfq7L3DhnUa0rwrEtta33YO9drzUeaaveO9b86IJvEdMFS6Jwb1AXb-Ik9p-uZjp3TohkzZ0PjO-I1A9Ep5UP-w__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA')"></a>
                             <div class="solution-information">
-                                <a href="#" class="h4 title">Amylases of Fungal Origin</a>
-                                <a href="#" class="show-more">
-                                    <i class="button-icon icon icon-add-line"></i>
-                                    <span>Show More</span>
-                                </a>
+                                <span class="title-wrap"><a href="#" class="h4 title">Amylases of Fungal Origin</a></span>
+                                <span class="show-more-wrap">
+                                    <a href="#" class="show-more">
+                                        <i class="icon button-icon icon-add-line"></i>
+                                        <span>Show More</span>
+                                    </a>
+                                </span>
                             </div>
                         </div>
                     </div>
-                    <div class="item-wrap col-md-4 col-sm-6 col-12">
+                    <div class="item-wrap col-md-4 col-sm-6 col-12 wow fadeIn" data-wow-delay="0.2s" data-wow-duration="0.8s">
                         <div class="item">
                             <a href="#" class="img" style="background-image: url('https://s3-alpha-sig.figma.com/img/cb39/b737/7700625300253b6bd5c2e4bb8e95377a?Expires=1583712000&Signature=Da9kPuoRc7m5a5ntjFvNsQUS4zCpTkqjApP3M-GkirrbA6hv6-yUPfdwnMWdqd4CsoJmVYR30McxocKvcL9UMvzupet7topALNJ~Bl3k-TjrDNepKOPoYrXHld-fP5R-EmBvyTgbo9eCQrhPqfqF7vtwvKb7QrtflMTQi8P5gun2K4xZCddS8sPVxarjC-UVYUoyuCcDBCs7vIODRw~cr0gRETwYoXbszNOwO0yCO3UKBGZ7yabx~VkQa0xVOYcNfq7L3DhnUa0rwrEtta33YO9drzUeaaveO9b86IJvEdMFS6Jwb1AXb-Ik9p-uZjp3TohkzZ0PjO-I1A9Ep5UP-w__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA')"></a>
                             <div class="solution-information">
-                                <a href="#" class="h4 title">Amylases of Fungal Origin</a>
-                                <a href="#" class="show-more">
-                                    <i class="button-icon icon icon-add-line"></i>
-                                    <span>Show More</span>
-                                </a>
+                                <span class="title-wrap"><a href="#" class="h4 title">Amylases of Fungal Origin</a></span>
+                                <span class="show-more-wrap">
+                                    <a href="#" class="show-more">
+                                        <i class="icon button-icon icon-add-line"></i>
+                                        <span>Show More</span>
+                                    </a>
+                                </span>
                             </div>
                         </div>
                     </div>
-                    <div class="item-wrap col-md-4 col-sm-6 col-12">
+                    <div class="item-wrap col-md-4 col-sm-6 col-12 wow fadeIn" data-wow-delay="0.2s" data-wow-duration="0.8s">
                         <div class="item">
                             <a href="#" class="img" style="background-image: url('https://s3-alpha-sig.figma.com/img/cb39/b737/7700625300253b6bd5c2e4bb8e95377a?Expires=1583712000&Signature=Da9kPuoRc7m5a5ntjFvNsQUS4zCpTkqjApP3M-GkirrbA6hv6-yUPfdwnMWdqd4CsoJmVYR30McxocKvcL9UMvzupet7topALNJ~Bl3k-TjrDNepKOPoYrXHld-fP5R-EmBvyTgbo9eCQrhPqfqF7vtwvKb7QrtflMTQi8P5gun2K4xZCddS8sPVxarjC-UVYUoyuCcDBCs7vIODRw~cr0gRETwYoXbszNOwO0yCO3UKBGZ7yabx~VkQa0xVOYcNfq7L3DhnUa0rwrEtta33YO9drzUeaaveO9b86IJvEdMFS6Jwb1AXb-Ik9p-uZjp3TohkzZ0PjO-I1A9Ep5UP-w__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA')"></a>
                             <div class="solution-information">
-                                <a href="#" class="h4 title">Amylases of Fungal Origin</a>
-                                <a href="#" class="show-more">
-                                    <i class="button-icon icon icon-add-line"></i>
-                                    <span>Show More</span>
-                                </a>
+                                <span class="title-wrap"><a href="#" class="h4 title">Amylases of Fungal Origin</a></span>
+                                <span class="show-more-wrap">
+                                    <a href="#" class="show-more">
+                                        <i class="icon button-icon icon-add-line"></i>
+                                        <span>Show More</span>
+                                    </a>
+                                </span>
                             </div>
                         </div>
                     </div>
-                    <div class="item-wrap col-md-4 col-sm-6 col-12">
+                    <div class="item-wrap col-md-4 col-sm-6 col-12 wow fadeIn" data-wow-delay="0.2s" data-wow-duration="0.8s">
                         <div class="item">
                             <a href="#" class="img" style="background-image: url('https://s3-alpha-sig.figma.com/img/cb39/b737/7700625300253b6bd5c2e4bb8e95377a?Expires=1583712000&Signature=Da9kPuoRc7m5a5ntjFvNsQUS4zCpTkqjApP3M-GkirrbA6hv6-yUPfdwnMWdqd4CsoJmVYR30McxocKvcL9UMvzupet7topALNJ~Bl3k-TjrDNepKOPoYrXHld-fP5R-EmBvyTgbo9eCQrhPqfqF7vtwvKb7QrtflMTQi8P5gun2K4xZCddS8sPVxarjC-UVYUoyuCcDBCs7vIODRw~cr0gRETwYoXbszNOwO0yCO3UKBGZ7yabx~VkQa0xVOYcNfq7L3DhnUa0rwrEtta33YO9drzUeaaveO9b86IJvEdMFS6Jwb1AXb-Ik9p-uZjp3TohkzZ0PjO-I1A9Ep5UP-w__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA')"></a>
                             <div class="solution-information">
-                                <a href="#" class="h4 title">Amylases of Fungal Origin</a>
-                                <a href="#" class="show-more">
-                                    <i class="button-icon icon icon-add-line"></i>
-                                    <span>Show More</span>
-                                </a>
+                                <span class="title-wrap"><a href="#" class="h4 title">Amylases of Fungal Origin</a></span>
+                                <span class="show-more-wrap">
+                                    <a href="#" class="show-more">
+                                        <i class="icon button-icon icon-add-line"></i>
+                                        <span>Show More</span>
+                                    </a>
+                                </span>
                             </div>
                         </div>
                     </div>
-                    <div class="item-wrap col-md-4 col-sm-6 col-12">
+                    <div class="item-wrap col-md-4 col-sm-6 col-12 wow fadeIn" data-wow-delay="0.2s" data-wow-duration="0.8s">
                         <div class="item">
                             <a href="#" class="img" style="background-image: url('https://s3-alpha-sig.figma.com/img/cb39/b737/7700625300253b6bd5c2e4bb8e95377a?Expires=1583712000&Signature=Da9kPuoRc7m5a5ntjFvNsQUS4zCpTkqjApP3M-GkirrbA6hv6-yUPfdwnMWdqd4CsoJmVYR30McxocKvcL9UMvzupet7topALNJ~Bl3k-TjrDNepKOPoYrXHld-fP5R-EmBvyTgbo9eCQrhPqfqF7vtwvKb7QrtflMTQi8P5gun2K4xZCddS8sPVxarjC-UVYUoyuCcDBCs7vIODRw~cr0gRETwYoXbszNOwO0yCO3UKBGZ7yabx~VkQa0xVOYcNfq7L3DhnUa0rwrEtta33YO9drzUeaaveO9b86IJvEdMFS6Jwb1AXb-Ik9p-uZjp3TohkzZ0PjO-I1A9Ep5UP-w__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA')"></a>
                             <div class="solution-information">
-                                <a href="#" class="h4 title">Amylases of Fungal Origin</a>
-                                <a href="#" class="show-more">
-                                    <i class="button-icon icon icon-add-line"></i>
-                                    <span>Show More</span>
-                                </a>
+                                <span class="title-wrap"><a href="#" class="h4 title">Amylases of Fungal Origin</a></span>
+                                <span class="show-more-wrap">
+                                    <a href="#" class="show-more">
+                                        <i class="icon button-icon icon-add-line"></i>
+                                        <span>Show More</span>
+                                    </a>
+                                </span>
                             </div>
                         </div>
                     </div>
-                    <div class="item-wrap col-md-4 col-sm-6 col-12">
+                    <div class="item-wrap col-md-4 col-sm-6 col-12 wow fadeIn" data-wow-delay="0.2s" data-wow-duration="0.8s">
                         <div class="item">
                             <a href="#" class="img" style="background-image: url('https://s3-alpha-sig.figma.com/img/cb39/b737/7700625300253b6bd5c2e4bb8e95377a?Expires=1583712000&Signature=Da9kPuoRc7m5a5ntjFvNsQUS4zCpTkqjApP3M-GkirrbA6hv6-yUPfdwnMWdqd4CsoJmVYR30McxocKvcL9UMvzupet7topALNJ~Bl3k-TjrDNepKOPoYrXHld-fP5R-EmBvyTgbo9eCQrhPqfqF7vtwvKb7QrtflMTQi8P5gun2K4xZCddS8sPVxarjC-UVYUoyuCcDBCs7vIODRw~cr0gRETwYoXbszNOwO0yCO3UKBGZ7yabx~VkQa0xVOYcNfq7L3DhnUa0rwrEtta33YO9drzUeaaveO9b86IJvEdMFS6Jwb1AXb-Ik9p-uZjp3TohkzZ0PjO-I1A9Ep5UP-w__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA')"></a>
                             <div class="solution-information">
-                                <a href="#" class="h4 title">Amylases of Fungal Origin</a>
-                                <a href="#" class="show-more">
-                                    <i class="button-icon icon icon-add-line"></i>
-                                    <span>Show More</span>
-                                </a>
+                                <span class="title-wrap"><a href="#" class="h4 title">Amylases of Fungal Origin</a></span>
+                                <span class="show-more-wrap">
+                                    <a href="#" class="show-more">
+                                        <i class="icon button-icon icon-add-line"></i>
+                                        <span>Show More</span>
+                                    </a>
+                                </span>
                             </div>
                         </div>
                     </div>
-                    <div class="item-wrap col-md-4 col-sm-6 col-12">
+                    <div class="item-wrap col-md-4 col-sm-6 col-12 wow fadeIn" data-wow-delay="0.2s" data-wow-duration="0.8s">
                         <div class="item">
                             <a href="#" class="img" style="background-image: url('https://s3-alpha-sig.figma.com/img/cb39/b737/7700625300253b6bd5c2e4bb8e95377a?Expires=1583712000&Signature=Da9kPuoRc7m5a5ntjFvNsQUS4zCpTkqjApP3M-GkirrbA6hv6-yUPfdwnMWdqd4CsoJmVYR30McxocKvcL9UMvzupet7topALNJ~Bl3k-TjrDNepKOPoYrXHld-fP5R-EmBvyTgbo9eCQrhPqfqF7vtwvKb7QrtflMTQi8P5gun2K4xZCddS8sPVxarjC-UVYUoyuCcDBCs7vIODRw~cr0gRETwYoXbszNOwO0yCO3UKBGZ7yabx~VkQa0xVOYcNfq7L3DhnUa0rwrEtta33YO9drzUeaaveO9b86IJvEdMFS6Jwb1AXb-Ik9p-uZjp3TohkzZ0PjO-I1A9Ep5UP-w__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA')"></a>
                             <div class="solution-information">
-                                <a href="#" class="h4 title">Amylases of Fungal Origin</a>
-                                <a href="#" class="show-more">
-                                    <i class="button-icon icon icon-add-line"></i>
-                                    <span>Show More</span>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item-wrap col-md-4 col-sm-6 col-12">
-                        <div class="item">
-                            <a href="#" class="img" style="background-image: url('https://s3-alpha-sig.figma.com/img/cb39/b737/7700625300253b6bd5c2e4bb8e95377a?Expires=1583712000&Signature=Da9kPuoRc7m5a5ntjFvNsQUS4zCpTkqjApP3M-GkirrbA6hv6-yUPfdwnMWdqd4CsoJmVYR30McxocKvcL9UMvzupet7topALNJ~Bl3k-TjrDNepKOPoYrXHld-fP5R-EmBvyTgbo9eCQrhPqfqF7vtwvKb7QrtflMTQi8P5gun2K4xZCddS8sPVxarjC-UVYUoyuCcDBCs7vIODRw~cr0gRETwYoXbszNOwO0yCO3UKBGZ7yabx~VkQa0xVOYcNfq7L3DhnUa0rwrEtta33YO9drzUeaaveO9b86IJvEdMFS6Jwb1AXb-Ik9p-uZjp3TohkzZ0PjO-I1A9Ep5UP-w__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA')"></a>
-                            <div class="solution-information">
-                                <a href="#" class="h4 title">Amylases of Fungal Origin</a>
-                                <a href="#" class="show-more">
-                                    <i class="button-icon icon icon-add-line"></i>
-                                    <span>Show More</span>
-                                </a>
+                                <span class="title-wrap"><a href="#" class="h4 title">Amylases of Fungal Origin</a></span>
+                                <span class="show-more-wrap">
+                                    <a href="#" class="show-more">
+                                        <i class="icon button-icon icon-add-line"></i>
+                                        <span>Show More</span>
+                                    </a>
+                                </span>
                             </div>
                         </div>
                     </div>
