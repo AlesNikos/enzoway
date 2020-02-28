@@ -603,6 +603,11 @@ body {
     }
     .menu-list {
         display: flex;
+        &:hover {
+            .menu-link {
+                color: @color-gray-700;
+            }
+        }
         .menu-link {
             position: relative;
             display: flex;
@@ -626,6 +631,7 @@ body {
             }
 
             &:hover {
+                color: @color-gray-900;
                 &:after {
                     width: 100%;
                     left: 0;
